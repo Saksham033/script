@@ -36,7 +36,7 @@ echo done
 
 echo Lunch and make
 
-lunch aosp_tissot-userdebug && lunch arrow_tissot-userdebug && make installclean && mka bacon -j24
+lunch aosp_tissot-userdebug && make clean && make clobber && mka bacon -j24
 
 echo done
 
