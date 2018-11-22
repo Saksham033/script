@@ -36,6 +36,8 @@ echo done
 
 echo Lunch and make
 
+export CUSTOM_BUILD_TYPE=OFFICIAL
+
 lunch aosp_tissot-userdebug && make clean && make clobber && mka bacon -j24
 
 echo done
