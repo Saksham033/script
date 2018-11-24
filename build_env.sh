@@ -1,5 +1,11 @@
 #Script For setting up build environment....
 
+echo Remove old stuff
+
+sudo rm -rf * && sudo reboot
+
+echo done
+
 echo Search for packages
 
 sudo apt update && sudo apt upgrade
