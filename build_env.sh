@@ -2,7 +2,7 @@
 
 echo Remove old stuff
 
-sudo rm -rf * && sudo reboot
+sudo rm -rf *
 
 echo done
 
