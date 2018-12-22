@@ -58,4 +58,4 @@ echo Wait
 
 chmod +x ~/bin/repo
 
-echo done. Thanks for using :-)
+echo done. Thanks for using the script. cheers..
