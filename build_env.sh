@@ -1,6 +1,6 @@
 #Script For setting up build environment....
 
-echo Remove old stuff
+echo Removing old stuff
 
 sudo rm -rf *
 
@@ -36,11 +36,11 @@ cd scripts && bash s*/a*
 
 echo done
 
-#Make bin directory to initialise repo their
+#Make bin and android directory to initialise repo and clone source
 
-echo making "Bin"
+echo making "Bin" and "android"
 
-mkdir -p ~/bin
+mkdir -p ~/bin && mkdir -p ~/android
 
 echo done
 
