@@ -14,9 +14,9 @@ echo done
 
 #install git-core
 
-echo installing
+echo installing some important packages
 
-sudo apt-get install git-core
+sudo apt-get install git-core && sudo apt install repo && sudo apt install megatools
 
 echo done
 
